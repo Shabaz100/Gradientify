@@ -1,0 +1,32 @@
+.color-picker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  border: 1px solid #000000;
+  border-radius: 2px;
+
+}
+
+
+.color-picker input[type="color"] {
+  gap: 30px;
+  appearance: none;
+  -webkit-appearance: none;
+  width: 60px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 600px){
+  .color-picker{
+    width: 234px;
+height: 87px;
+  }
+  h2{
+    width:200px;
+  }
+}

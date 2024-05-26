@@ -1,0 +1,52 @@
+.thickness-picker {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 5px;
+  }
+  
+  .thickness-picker label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 5px;
+  }
+  
+  .thickness-picker input[type="range"] {
+    width: 80%;
+    max-width: 300px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+  }
+
+.thick_val{
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 10px;
+  color: #000000;
+  width: 40px;
+}
+  
+.thickInput {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  padding: 0.5em;
+  font-size: inherit;
+}
+
+.thickInput:focus {
+  outline: none;
+}
+
+.thickInput option {
+  color: #000;
+  background-color: #fff;
+}
+
+.thickInput::-ms-expand {
+  display: none;
+}

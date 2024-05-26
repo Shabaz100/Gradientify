@@ -1,0 +1,27 @@
+.about_us {
+  width: fit-content;
+  height: fit-content;
+  padding: 30px;
+  background: #e0ebfe;
+  border-radius: 27px;
+  align-items: center;
+  border: 1px solid #000000;
+  margin-left: 60vw;
+}
+
+.heading {
+  margin-left: 20px;
+}
+
+p {
+  color: #757575;
+}
+
+.aboutClose{
+  margin-left: 200px;
+  cursor: pointer;
+}
+
+.aboutClose:hover{
+  cursor: pointer;
+}

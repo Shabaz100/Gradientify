@@ -1,0 +1,52 @@
+/* Preview */
+.preview-container {
+  /* position: relative; */
+  margin-left: 200px;
+  margin-top: 80px;
+  width: 300px;
+  height: 300px;
+  border: solid black 2px;
+  margin-bottom: 2rem;
+}
+
+.preview_back {
+  box-sizing: border-box;
+
+  /* position: absolute; */
+  width: 650px;
+  height: 500px;
+  /* margin-left: 3px; */
+  margin-top: 20px;
+
+  background: #e7e8fe;
+  border: 1px solid #000000;
+  border-radius: 25px;
+}
+
+.preview_front {
+  box-sizing: border-box;
+
+  /* position: absolute; */
+  width: 670px;
+  height: 500px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 25px;
+  align-self: center;
+}
+
+@media screen and (max-width: 600px) {
+  .preview-container {
+    align-items: center;
+  }
+  .preview_back,
+  .preview_front {
+    margin-left: 0;
+    width: 296px;
+    height: 215.98px;
+  }
+  .preview_back {
+    width: 287px;
+  }
+}

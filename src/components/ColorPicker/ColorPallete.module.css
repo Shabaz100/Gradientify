@@ -1,0 +1,58 @@
+.tooltip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    border: 0px solid transparent;
+    background-color: rgba(100,77,237,0.08);
+    border-radius: 50%;
+    transition: all 0.2s linear;
+   }
+   
+   .tooltip:hover {
+    box-shadow: 3.4px 2.5px 4.9px rgba(0, 0, 0, 0.025),
+     8.6px 6.3px 12.4px rgba(0, 0, 0, 0.035),
+     17.5px 12.8px 25.3px rgba(0, 0, 0, 0.045),
+     36.1px 26.3px 52.2px rgba(0, 0, 0, 0.055),
+     99px 72px 143px rgba(0, 0, 0, 0.08);
+   }
+   
+   .inp {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  .inp::-webkit-color-swatch {
+    border-radius: 50%;
+    /* border: 7px solid #000000; */
+  }
+  .inp::-moz-color-swatch {
+    border-radius: 50%;
+    /* border: 7px solid #000000; */
+  }
+
+  .colorList, .addColor{
+    display: flex;
+    gap: 2px;
+  }
+
+  button{
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    padding: 0;
+    cursor: pointer;
+    outline: inherit;
+    
+  }
+
+  .crossIcon{
+    margin-left: 2px;
+  }

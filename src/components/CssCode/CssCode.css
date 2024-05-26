@@ -1,0 +1,78 @@
+.code_front {
+  position: absolute;
+  width: 650px;
+  height: 250px;
+  /* margin-left: 600px; */
+  margin-top: 80px;
+  background-color: #ffff;
+  border-radius: 25px;
+  border: 1px solid #000000;
+  /* padding: 20px; */
+}
+.cs_btn {
+  display: flex;
+  /* gap:30px; */
+}
+label {
+  font-size: 1rem;
+  font-weight: 3px;
+}
+.code_back {
+  box-sizing: border-box;
+  overflow: scroll;
+  overflow-x: hidden;
+
+  width: 640px;
+  height: 250px;
+  /* margin-left: 3px; */
+  margin-top: 20px;
+  /* z-index: -200; */
+  background: #e7e8fe;
+
+  padding: 5px;
+  border: 1px solid #000000;
+  border-radius: 25px;
+}
+
+.code_back::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #9196fa;
+  border-radius: 10px;
+  height: 220px;
+}
+
+.code_back::-webkit-scrollbar {
+  width: 5px;
+  background-color: #9196fa;
+}
+
+.code_front::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.44, rgb(122, 153, 217)),
+    color-stop(0.72, rgb(73, 125, 189)),
+    color-stop(0.86, rgb(28, 58, 148))
+  );
+}
+
+@media screen and (max-width: 600px) {
+  .code_back,
+  .code_front {
+    width: 296px;
+    height: 215.98px;
+    margin-left: 0;
+  }
+  .code_back {
+    width: 287px;
+  }
+  .cs_btn {
+    display: flex;
+  }
+  Button {
+    display: none;
+  }
+}

@@ -1,0 +1,49 @@
+
+.nav{
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+    padding: 20px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: #312B46;
+    font-weight: 400;
+    margin-top: 3px;
+}
+
+.logo{
+    align-self: center;
+}
+.whole{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    gap: 5px;
+}
+
+
+
+.about_svg{
+    height: 25px;
+    cursor: pointer;
+}
+
+
+@media  screen and (max-width: 600px) {
+    h1{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .logo{
+        display: block;
+    }
+    
+}
